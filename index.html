@@ -1,23 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web 3 Boilerplate v1.0</title>
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/style.css">
-
-    <!-- Scripts -->
-    <script defer src="js/script.js"></script>
+  <meta charset="UTF-8">
+  <title>Soundboard</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
-    
-    <h1>Web 3 Boilerplate v1.0</h1>
 
-    <img src="img/placeholder image.png" alt="Placeholder Image">
+  <!-- Keys -->
+<div class="keys">
+
+    <div data-key="67" class="key">
+      <kbd>C</kbd>
+      <span class="sound">My Sound</span>
+    </div>
+    <div data-key="219" class="key">
+      <kbd>[</kbd>
+      <span class="sound">Ringtone</span>
+    </div>
+    
+
+
+</div>
+
+  <!-- Sounds -->
+  <audio data-key="67" src="sounds/owwww.mp3"></audio>
+  <audio data-key="219" src="sounds/imokay.mp3"></audio>
+  <audio data-key="67" src="sounds/mamamia.mp3"></audio>
+  <audio data-key="219" src="sounds/lebron-james.mp3"></audio>
+  <audio data-key="67" src="sounds/chickenbeefsandwich.mp3"></audio>
+  
+<!-- JavaScript -->
+  <script  src="./script.js"></script>
 
 </body>
 </html>
