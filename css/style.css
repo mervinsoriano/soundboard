@@ -2,7 +2,7 @@
 /* Set Fonts and Resets */
 body,
 html {
-  background: gray;
+  background: #18181b;
   margin: 0;
   overflow-x: hidden;
   padding: 0;
@@ -50,11 +50,12 @@ kbd {
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem 0.5rem;
+  color: whitesmoke;
 
   /* Styling of keys */
   width: 10rem;
   text-align: center;
-  outline: 1px solid black;
+  /* outline: 1px solid black; */
   
   /* Change mouse pointer */
   cursor:pointer;
@@ -74,4 +75,18 @@ kbd {
           transform: scale(1.1);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.04);
   background: white;
+}
+
+.purple {
+  background-color: hsla(274, 66%, 32%, .5);
+  border: 0.188rem solid hsla(274, 66%, 32%, 1);
+  border-radius: 1.5rem;
+  filter: drop-shadow(0rem 0.5rem 0.25rem hsla(0, 0%, 0%, 0.3));
+}
+
+.teal {
+  background-color: hsla(176, 61%, 19%, .5);
+  border: 0.188rem solid hsla(176, 61%, 19%, 1);
+  border-radius: 1.5rem;
+  filter: drop-shadow(0rem 0.5rem 0.25rem hsla(0, 0%, 0%, 0.3));
 }
