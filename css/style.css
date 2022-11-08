@@ -23,6 +23,8 @@ body {
 /* Actual Keyboard Keys */
 kbd {
   display: block;
+  font-family: 'RedHatDisplay-Variable';
+  font-weight: 600;
   font-size: 4rem;
 }
 
